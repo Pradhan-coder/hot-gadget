@@ -1,0 +1,90 @@
+
+.header {
+   background-color: rgba(241, 210, 210, 0.2);
+   overflow: hidden;
+   padding:20px 10px;
+}
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 25px;
+    border-radius: 4px;   
+}
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+a:hover {
+    background-color: #e6ebf5;
+    color: black;
+}
+.header a.active {
+    background-color: rgb(235, 230, 225);
+    color: white;
+}
+.header-right{
+    float: right;
+}
+@media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+    }
+    .carousel-item-indicators{
+        margin-bottom: 40px;
+        padding: 20px 30px;
+    
+    }
+    .body{
+        margin-bottom: 100px;
+    }
+    .orange-bg{
+        background-color: lawngreen;
+        border-radius: 20px;
+    }
+    .carousel-item{
+        padding: 25px 25px;
+    }
+    .price{
+        color: #a715b4;
+    }
+    .buy-now-button{
+         background-image: linear-gradient(black blue);
+         color: blue;
+         border: gray;
+         border-radius: 8px;
+         padding: 9px 25px;
+         cursor: pointer;
+    }
+    .button{
+        color: darkolivegreen;
+    }
+    .cat1, .cat2, .cat3{
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    .categoriesh1{
+        color: white;
+
+    }
+    .footer{
+        background-position: center;
+        background-color: white;
+        border: none;
+        text-align: center;
+    }
+    #subscribe{
+        height: 300px;
+        color: gray;
+    }
+    
+    
